@@ -18,12 +18,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Install bananomiapy
+    - name: Install bionompy
       run: make
     - name: Tests
       run: pytest
     - name: Test coverage
       if: matrix.python-version == '3.11'
       run: |
-        python3 -m "pytest" --cov-report=xml --cov=bananomiapy test/
+        python3 -m "pytest" --cov-report=xml --cov=bionompy test/
         codecov
