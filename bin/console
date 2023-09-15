@@ -1,0 +1,2 @@
+#!/bin/bash
+python -c "import bionompy; import code; code.interact(local=locals())"
