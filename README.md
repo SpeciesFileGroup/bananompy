@@ -1,5 +1,7 @@
 # Bionompy
 
+![Bionompy Logo](https://github.com/SpeciesFileGroup/bionompy/assets/8573609/b6cb65bc-27e4-4040-bf96-e2d600fb237f)
+
 This is a Python wrapper on the [Bionomia](https://bionomia.net) API. Code follow the spirit/approach of the [pygbif](https://github.com/gbif/pygbif/graphs/contributors) package, and indeed much of the wrapping utility is copied 1:1 from that repo, thanks [@sckott](https://github.com/sckott) and other [contributors](https://github.com/gbif/pygbif/graphs/contributors).
 
 ## Installation
@@ -129,7 +131,7 @@ Search for an agent string with the query, q:
 bionompy.agent.search(q='Mary Agnes')
 ```
 
-Get an agent string's occurrences by ID (***Warning:*** The agent string identifiers are temporary and can periodcially change when new agent strings are imported into Bionomia.)
+Get an agent string's occurrences by ID (***Warning:*** The agent string identifiers are temporary and change every 2 weeks when new agent strings are imported into Bionomia and the website also goes down with a 503 error during agent string updates.)
 ```python
 bionompy.agent.get('4746282')
 ```
