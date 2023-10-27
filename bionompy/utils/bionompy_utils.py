@@ -41,7 +41,6 @@ def bionom_get_agent_list(url, args, **kwargs):
 
 
 def bionom_get_agent_specimens(url, args, **kwargs):
-    print(url)
     args = args_mapper(args)
 
     resp = requests.get(url, params=args, headers=get_agent(), **kwargs)
