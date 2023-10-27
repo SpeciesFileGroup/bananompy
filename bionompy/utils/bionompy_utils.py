@@ -7,6 +7,11 @@ class NoResultException(Exception):
     pass
 
 
+class MustAcknowledgeTemporaryIdentifiers(Exception):
+    def __init__(self):
+        super().__init__("Error: to use this function, you must acknowledge that agent string identifiers are temporary, meaning that the same agent string identifier can return different data. The website will also go down every 2 weeks while new agent strings are loaded. Pass ack_temp_ids=True to dismiss this message and use the function anyway.")
+
+
 def bionom_get(url, args, **kwargs):
     args = args_mapper(args)
 
