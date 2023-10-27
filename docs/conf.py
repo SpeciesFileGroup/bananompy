@@ -11,7 +11,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath(".."))
 
-project = 'Bionompy'
+project = 'Bananompy'
 copyright = '2023, Geoff Ower'
 author = 'Geoff Ower'
 release = '0.0.1'
@@ -21,7 +21,7 @@ release = '0.0.1'
 
 extensions = ["sphinx.ext.intersphinx", "sphinx.ext.todo", "sphinx.ext.viewcode", "sphinx.ext.autodoc", "sphinx_issues"]
 
-issues_github_path = "SpeciesFileGroup/Bionompy"
+issues_github_path = "SpeciesFileGroup/Bananompy"
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']

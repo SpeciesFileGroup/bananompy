@@ -1,9 +1,9 @@
-bionompy
+bananompy
 ========
 
 .. toctree::
    :maxdepth: 4
 
-   bionompy
+   bananompy
    setup
    test

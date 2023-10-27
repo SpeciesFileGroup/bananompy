@@ -1,45 +1,45 @@
-bionompy package
+bananompy package
 ================
 
 Submodules
 ----------
 
-bionompy.agent module
+bananompy.agent module
 ---------------------
 
-.. automodule:: bionompy.bionompy.agent
+.. automodule:: bananompy.bananompy.agent
    :members:
    :undoc-members:
    :show-inheritance:
 
-bionompy.occurrence module
+bananompy.occurrence module
 --------------------------
 
-.. automodule:: bionompy.bionompy.occurrence
+.. automodule:: bananompy.bananompy.occurrence
    :members:
    :undoc-members:
    :show-inheritance:
 
-bionompy.parse module
+bananompy.parse module
 ---------------------
 
-.. automodule:: bionompy.bionompy.parse
+.. automodule:: bananompy.bananompy.parse
    :members:
    :undoc-members:
    :show-inheritance:
 
-bionompy.person module
+bananompy.person module
 ----------------------
 
-.. automodule:: bionompy.bionompy.person
+.. automodule:: bananompy.bananompy.person
    :members:
    :undoc-members:
    :show-inheritance:
 
-bionompy.suggest module
+bananompy.suggest module
 -----------------------
 
-.. automodule:: bionompy.bionompy.suggest
+.. automodule:: bananompy.bananompy.suggest
    :members:
    :undoc-members:
    :show-inheritance:
@@ -47,7 +47,7 @@ bionompy.suggest module
 Module contents
 ---------------
 
-.. automodule:: bionompy.bionompy
+.. automodule:: bananompy.bananompy
    :members:
    :undoc-members:
    :show-inheritance:

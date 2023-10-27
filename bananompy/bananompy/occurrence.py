@@ -1,4 +1,4 @@
-from bionompy.utils.bionompy_utils import bionom_get, BASEURL
+from bananompy.utils.bananompy_utils import bionom_get, BASEURL
 
 
 def get(occurrence_id):
@@ -9,7 +9,7 @@ def get(occurrence_id):
 
     Usage::
 
-        from bionompy import occurrence
+        from bananompy import occurrence
         occurrence.get('477976412')
     """
     url = BASEURL + f"occurrence/{occurrence_id}.jsonld"
@@ -29,7 +29,7 @@ def search(dataset_id, occurrence_id, callback=None, page=0, limit=30, **kwargs)
 
     Usage::
 
-        from bionompy import occurrence
+        from bananompy import occurrence
         occurrence.search('f86a681d-7db8-483b-819a-248def18b70a', '7a1daa39-8d7c-d7c4-968f-799d58b3c7b0')
 
         # Return page 2 of the results

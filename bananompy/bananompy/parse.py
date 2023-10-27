@@ -1,4 +1,4 @@
-from bionompy.utils.bionompy_utils import bionom_get, BASEURL
+from bananompy.utils.bananompy_utils import bionom_get, BASEURL
 
 
 def parse(names):
@@ -9,7 +9,7 @@ def parse(names):
 
     Usage::
 
-        from bionompy import parse
+        from bananompy import parse
         parse('Henry Robert Nicollon des Abbayes; Groom Q\\r\\nMrs. John Errol Chandos Aberdeen')
     """
     url = BASEURL + f"parse"

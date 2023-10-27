@@ -9,7 +9,7 @@ install: build
 	python setup.py install
 
 test:
-	pytest --cov-report term --cov=bionompy test/
+	pytest --cov-report term --cov=bananompy test/
 
 docs:
 	cd docs;\

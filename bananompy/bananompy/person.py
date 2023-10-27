@@ -1,4 +1,4 @@
-from bionompy.utils.bionompy_utils import bionom_get, BASEURL
+from bananompy.utils.bananompy_utils import bionom_get, BASEURL
 
 
 def get(person_id, csv=None, specimens=None, page=None, limit=None):
@@ -13,7 +13,7 @@ def get(person_id, csv=None, specimens=None, page=None, limit=None):
 
     Usage::
 
-        from bionompy import person
+        from bananompy import person
 
         # Get Mary Agnes Chase's profile
         person.get('Q3822242')
@@ -72,7 +72,7 @@ def search(
 
     Usage::
 
-        from bionompy import person
+        from bananompy import person
         person.search(q='Mary Agnes Chase')
 
         # Filter the search by families collected

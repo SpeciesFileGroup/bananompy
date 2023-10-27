@@ -1,2 +1,2 @@
 #!/bin/bash
-python -c "import bionompy; import code; code.interact(local=locals())"
+python -c "import bananompy; import code; code.interact(local=locals())"

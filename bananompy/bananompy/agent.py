@@ -1,4 +1,4 @@
-from bionompy.utils.bionompy_utils import bionom_get_agent_specimens, bionom_get_agent_list, MustAcknowledgeTemporaryIdentifiers
+from bananompy.utils.bananompy_utils import bionom_get_agent_specimens, bionom_get_agent_list, MustAcknowledgeTemporaryIdentifiers
 
 
 def get(agent_id, page=1, ack_temp_ids=False):
@@ -14,7 +14,7 @@ def get(agent_id, page=1, ack_temp_ids=False):
 
     Usage::
 
-        from bionompy import agent
+        from bananompy import agent
 
         # get specimens for agent_id=1
         agent.get(1)
@@ -44,7 +44,7 @@ def search(q=None, ack_temp_ids=False):
 
     Usage::
 
-        from bionompy import agent
+        from bananompy import agent
 
         # get a random list of agent strings
         agent.search()

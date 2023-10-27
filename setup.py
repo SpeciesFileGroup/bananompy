@@ -11,15 +11,15 @@ changes = changes.replace(":issue:", "")
 long_description = readme + "\n\n" + changes
 
 setup(
-    name="bionompy",
+    name="bananompy",
     version="0.0.1",
     description="Python client for Bionomia",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Geoff Ower",
     author_email="gdower@illinois.edu",
-    url="http://github.com/speciesfilegroup/bionompy",
-    download_url="https://github.com/speciesfilegroup/bionompy/archive/refs/tags/v0.0.1.tar.gz",
+    url="http://github.com/speciesfilegroup/bananompy",
+    download_url="https://github.com/speciesfilegroup/bananompy/archive/refs/tags/v0.0.1.tar.gz",
     license="NCSA",
     packages=find_packages(exclude=["test-*"]),
     install_requires=[

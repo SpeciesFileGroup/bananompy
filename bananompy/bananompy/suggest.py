@@ -1,4 +1,4 @@
-from bionompy.utils.bionompy_utils import bionom_get, BASEURL
+from bananompy.utils.bananompy_utils import bionom_get, BASEURL
 
 
 def suggest(q, is_public=None, has_occurrences=None, limit=None):
@@ -13,7 +13,7 @@ def suggest(q, is_public=None, has_occurrences=None, limit=None):
 
     Usage::
 
-        from bionompy import suggest
+        from bananompy import suggest
         suggest('Mary Agnes Chas')
     """
     url = BASEURL + f"user.json"

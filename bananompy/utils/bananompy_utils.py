@@ -1,5 +1,5 @@
 import requests
-import bionompy
+import bananompy
 from bs4 import BeautifulSoup
 from requests.exceptions import JSONDecodeError
 
@@ -100,8 +100,8 @@ def get_agent():
     return {
         "user-agent": "python-requests/"
         + requests.__version__
-        + ",bionompy/"
-        + bionompy.__version__
+        + ",bananompy/"
+        + bananompy.__version__
     }
 
 BASEURL = "https://api.bionomia.net/"
