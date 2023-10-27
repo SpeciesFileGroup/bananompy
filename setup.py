@@ -43,7 +43,7 @@ setup(
         "Intended Audience :: Science/Research",
         "Topic :: Scientific/Engineering :: Bio-Informatics",
         "Natural Language :: English",
-        "License :: OSI Approved :: NCSA License",
+        "License :: OSI Approved :: University of Illinois/NCSA Open Source License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
