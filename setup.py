@@ -20,7 +20,7 @@ setup(
     author_email="gdower@illinois.edu",
     url="http://github.com/speciesfilegroup/bananompy",
     download_url="https://github.com/speciesfilegroup/bananompy/archive/refs/tags/v0.0.1.tar.gz",
-    license="NCSA",
+    license="MIT",
     packages=find_packages(exclude=["test-*"]),
     install_requires=[
         "requests>2.7",
@@ -43,11 +43,12 @@ setup(
         "Intended Audience :: Science/Research",
         "Topic :: Scientific/Engineering :: Bio-Informatics",
         "Natural Language :: English",
-        "License :: OSI Approved :: University of Illinois/NCSA Open Source License",
+        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.11"
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12"
     ],
     keywords = ['bionomia', 'biodiversity', 'collectors', 'specimens', 'API', 'web-services', 'species', 'natural history', 'taxonomists', 'biologists'],
 )
