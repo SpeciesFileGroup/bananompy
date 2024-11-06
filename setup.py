@@ -31,11 +31,13 @@ setup(
         "dev": [
             "codecov", 
             "pytest", 
-            "pytest-cov", 
+            "pytest-cov",
+            "python-dateutil",
             "sphinx>7.2.0", 
             "sphinx_issues", 
             "sphinx-rtd-theme", 
-            "twine", 
+            "twine",
+            "vcrpy",
             "wheel"],
     },
     classifiers=[

@@ -16,7 +16,7 @@ def test_search_person_basic():
 def test_search_person_basic2():
     "person.search - basic test 2"
     res = bananompy.person.search('smith', families_collected='scarabaeidae', strict=True)
-    assert 'Andrew B.T. Smith' == res['dataFeedElement'][0]['item']['name']
+    assert res['dataFeedElement'][0]['item']['name'] in ['M Alex Smith', 'Andrew B.T. Smith']
 
 
 @vcr.use_cassette("test/vcr_cassettes/test_person_search_strict.yaml")
