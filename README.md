@@ -140,7 +140,7 @@ bananompy.agent.get('4746282')
 
 ## Development
 
-After checking out the repo, change into the package directory `cd bananompy`, run `pip install .` to install the package, and `pip install -r requirements.txt` to install the dependencies. Then, run `pytest` to run the tests. You can also run `bin/console` for an interactive Python prompt that will allow you to experiment with the above example commands.
+After checking out the repo, change into the package directory `cd bananompy`, run `pip install .` to install the package, and `pip install -r requirements.txt -r requirements-dev.txt` to install the dependencies. Then, run `pytest` to run the tests. You can also run `bin/console` for an interactive Python prompt that will allow you to experiment with the above example commands.
 
 ## Other Bionomia Libraries
 
