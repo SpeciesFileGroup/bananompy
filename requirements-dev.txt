@@ -1,0 +1,10 @@
+codecov
+pytest
+pytest-cov
+python-dateutil
+sphinx>7.2.0
+sphinx_issues
+sphinx-rtd-theme
+twine
+vcrpy
+wheel
